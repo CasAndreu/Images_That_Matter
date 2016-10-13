@@ -1,2 +1,2 @@
-# Images That Matter
-Images That Matter: This is a project by Andreu Casas (University of Washington) and Nora Webb Williams (University of Washington) that studies the mobilizing power of images
+# Images That Matter: Online Protests and the Mobilizing Role of Pictures
+Replication material and for the paper by Andreu Casas (University of Washington) and Nora Webb Williams (University of Washington).
