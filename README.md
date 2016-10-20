@@ -9,3 +9,13 @@ Online Appendix and Replication materials for the [paper](http://andreucasas.com
   - D. Observational Data Analysis Regression Table
   - E.  Observational Data Analysis Robustness Checks
   - F. Supplemental Survey Experiment Materials
+  
+  
+- [`01_figure_1.R`](https://github.com/CasAndreu/Images_That_Matter/blob/master/01_figure_1.R): Code to replicate Figure 1.
+
+<p align="center">
+  <img src="images_png/figure_1a.png" style="width: 200px;"/>
+</p>
+<p align="center">
+  <img src="images_png/figure_1b.png" style="width: 200px;"/>
+</p>
