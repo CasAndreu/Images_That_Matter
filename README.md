@@ -11,7 +11,7 @@ Online Appendix and Replication materials for the [paper](http://andreucasas.com
   - F. Supplemental Survey Experiment Materials
   
   
-- [`01_figure_1.R`](https://github.com/CasAndreu/Images_That_Matter/blob/master/01_figure_1.R): Code to replicate Figure 1.
+- [`01_figure_1.R`](https://github.com/CasAndreu/Images_That_Matter/blob/master/code/01_figure_1.R): Code to replicate Figure 1.
 
 <p align="center">
   <img src="images_png/figure_1a.png" style="width: 200px;"/>
