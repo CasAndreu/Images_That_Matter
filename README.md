@@ -3,13 +3,9 @@ Online Appendix and Replication materials for the [paper](http://andreucasas.com
 
 ## Files Description:
 - `Online Appendix`: This is a PDF containing all the Appendices of the paper:
-  - A. Image Labeling Procedure
-  - B. Observational Dependent Variable PACFs
-  - C. Evidence of Stable Emotions Labeling
-  - D. Observational Data Analysis Regression Table
-  - E.  Observational Data Analysis Robustness Checks
-  - F. Supplemental Survey Experiment Materials
-  
+  - A. Image Labeling Procedures and Summary Statistics Table
+  - B. Interrater Reliability, Evidence of Stable Emotions Labeling, and Turker Demographics
+  - C. Regression Analysis Results Table
   
 - [`01_figure_1.R`](https://github.com/CasAndreu/Images_That_Matter/blob/master/code/01_figure_1.R): Code to replicate Figure 1.
 
