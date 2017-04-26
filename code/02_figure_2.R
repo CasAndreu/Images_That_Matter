@@ -47,7 +47,7 @@ ggplot(plot_db, aes(x = retweet_dummy, fill = media_dummy)) +
 dev.off()
 
 # - PNG version
-png("./images_p/figure_2.png", width = 800, height = 300)
+png("./images_p/figure_2.png", width = 500, height = 200)
 ggplot(plot_db, aes(x = retweet_dummy, fill = media_dummy)) +
   geom_bar(position = "dodge") +
   xlab("") +
