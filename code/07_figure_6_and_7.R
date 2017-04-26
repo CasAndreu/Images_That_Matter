@@ -170,28 +170,6 @@ ggplot(scenarios_wide %>% filter(model == "diff"), aes(x = score)) +
         strip.background = element_rect("white"))
 dev.off()
 
-# - PDF: Figure 7
-pdf("./images_pdf/figure_7.pdf", width = 14, height = 4.5)
-ggplot(scenarios_wide %>% filter(model == "diff"), aes(x = score)) +
-  geom_ribbon(aes(ymin = lwr, ymax = upr), fill = "gray90") +
-  geom_line(aes(y = pe)) +
-  geom_line(aes(y = lwr), alpha = 0.5) +
-  geom_line(aes(y = upr), alpha = 0.5) +
-  ylab("Number of retweets by new ShutdownA14 users") +
-  xlab("Evoked emotion (0 to 10)") +
-  scale_x_continuous(breaks = seq(0, 10, length.out = 5),
-                     labels = c("0", "2.5", "5", "7.5", "10")) +
-  facet_wrap(~ emotion, nrow = 1, ncol = 5) +
-  theme(axis.text.y= element_text(size = 16),
-        axis.text.x= element_text(size = 16),
-        axis.title.x = element_text(size = 16),
-        axis.title.y = element_text(size = 16),
-        strip.text.x = element_text(size = 18),
-        panel.background = element_rect("white"),
-        panel.border = element_rect("black", fill = NA),
-        strip.background = element_rect("white"))
-dev.off()
-
 # - PNG: Figure 7
 png("./images_png/figure_7.png", width = 800, height = 300)
 ggplot(scenarios_wide %>% filter(model == "diff"), aes(x = score)) +
