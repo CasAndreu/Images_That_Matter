@@ -2,7 +2,7 @@
 Online Appendix and Replication materials for the [paper](http://andreucasas.com/casas_webb_williams_Images_That_Matter_25April2017.pdf) by [Andreu Casas](http://andreucasas.com/) (University of Washington) and [Nora Webb Williams](https://norawebbwilliams.github.io/) (University of Washington).
 
 ## Files Description:
-- `Online Appendix`: This is a PDF containing all the Appendices of the paper:
+- [Online Appendix](https://github.com/CasAndreu/Images_That_Matter/blob/master/casas_webb_williams_Images_That_Matter_OnlineAppendix_25April2017.pdf): This is a PDF containing all the Appendices of the paper:
   - A. Image Labeling Procedures and Summary Statistics Table
   - B. Interrater Reliability, Evidence of Stable Emotions Labeling, and Turker Demographics
   - C. Regression Analysis Results Table
