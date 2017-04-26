@@ -3,8 +3,10 @@
 # Purpose: reproduces Figure 1 of the paper.
 # Instructions: Figure 1 is composed of 2 plots. Here we provide the code
 #   to reproduce both, Figure 1a and Figure 1b.
-# Author: Andreu Casas
+# Author: Andreu Casas & Nora Webb Williams
 #==============================================================================
+
+# Data
 
 # Load the main dataset containing information about eac 30-minute period
 results <- read.csv("./data/results.csv")
