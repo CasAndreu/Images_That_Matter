@@ -35,7 +35,7 @@ Online Appendix and Replication materials for the [paper](http://andreucasas.com
 - [`05_figure_4.R`](https://github.com/CasAndreu/Images_That_Matter/blob/master/code/05_figure_4.R): Code to replicate Figure 4.
 
 <p align="center">
-  <img src="images_png/figure_4.png" style="width: 200px;"/>
+  <img src="images_png/figure_4.png" style="width: 50px;"/>
 </p>
 
 - [`06_figure_5.R`](https://github.com/CasAndreu/Images_That_Matter/blob/master/code/06_figure_5.R): Code to replicate Figure 5.
