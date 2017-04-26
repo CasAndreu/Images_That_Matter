@@ -100,7 +100,7 @@ dev.off()
 
 
 # - PNG: marginal effects plot (Figure 3)
-png("./images_png/figure_3.png", width = 900, height = 300)
+png("./images_png/figure_3.png", width = 650, height = 250)
 ggplot(marf_res, aes(x = followers_count, y = pe,
                      ymin = lwr, ymax = upr)) +
   geom_ribbon(fill = "gray90") +
@@ -110,11 +110,11 @@ ggplot(marf_res, aes(x = followers_count, y = pe,
   xlab("Number of followers") +
   ylab("Marginal effect of having an image") +
   facet_wrap(~ model,scales = "free") +
-  theme(axis.text.y= element_text(size = 14),
-        axis.text.x= element_text(size = 14),
-        axis.title.y = element_text(size = 14),
-        axis.title.x = element_text(size = 14),
-        strip.text.x = element_text(size = 16),
+  theme(axis.text.y= element_text(size = 10),
+        axis.text.x= element_text(size = 10),
+        axis.title.y = element_text(size = 10),
+        axis.title.x = element_text(size = 10),
+        strip.text.x = element_text(size = 12),
         panel.background = element_rect("white"),
         panel.border = element_rect("black", fill = NA),
         strip.background = element_rect("white"))

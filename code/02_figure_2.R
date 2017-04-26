@@ -47,20 +47,21 @@ ggplot(plot_db, aes(x = retweet_dummy, fill = media_dummy)) +
 dev.off()
 
 # - PNG version
-png("./images_p/figure_2.png", width = 500, height = 200)
+png("./images_png/figure_2.png", width = 600, height = 250)
 ggplot(plot_db, aes(x = retweet_dummy, fill = media_dummy)) +
   geom_bar(position = "dodge") +
   xlab("") +
   ylab("Number of messages") +
   facet_wrap(~ shutA14) +
   scale_fill_manual("", values = c("gray40", "gray80")) +
-  theme(axis.text.y= element_text(size = 16),
-        legend.text = element_text(size = 16),
-        axis.text.x= element_text(size = 16),
-        axis.title.x = element_text(size = 16),
-        axis.title.y = element_text(size = 16),
-        strip.text.x = element_text(size = 16),
+  theme(axis.text.y= element_text(size = 10),
+        legend.text = element_text(size = 10),
+        axis.text.x= element_text(size = 10),
+        axis.title.x = element_text(size = 10),
+        axis.title.y = element_text(size = 10),
+        strip.text.x = element_text(size = 10),
         panel.background = element_rect("white"),
         panel.border = element_rect("black", fill = NA),
         strip.background = element_rect("white"))
 dev.off()
+

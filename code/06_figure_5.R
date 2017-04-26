@@ -72,7 +72,7 @@ ggplot(all_std_models %>% filter(!grepl("basic", model),
 dev.off()
 
 # - PNG: coefficients plot (Figure 5)
-png("./images_png/figure_5.png", width = 800, height = 300)
+png("./images_png/figure_5.png", width = 600, height = 250)
 ggplot(all_std_models %>% filter(!grepl("basic", model),
                                  !grepl("Previous", var),
                                  !grepl("Intercept", var),
@@ -86,9 +86,9 @@ ggplot(all_std_models %>% filter(!grepl("basic", model),
   facet_wrap(~ model) +
   xlab("") +
   ylab("Number of retweets") +
-  theme(axis.text.y= element_text(size = 14),
-        axis.text.x= element_text(size = 14),
-        strip.text.x = element_text(size = 14),
+  theme(axis.text.y= element_text(size = 10),
+        axis.text.x= element_text(size = 10),
+        strip.text.x = element_text(size = 10),
         panel.background = element_rect("white"),
         panel.border = element_rect("black", fill = NA),
         strip.background = element_rect("white"))

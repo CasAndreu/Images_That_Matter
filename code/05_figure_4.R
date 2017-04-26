@@ -136,7 +136,7 @@ ggplot(mar_res2, aes(x = followers_count, y = pe, ymin = lwr, ymax = upr,
 dev.off()
 
 # - PNG: Figure 4
-png("./images_png/figure_4.png", width = 800, height = 300)
+png("./images_png/figure_4.png", width = 750, height = 250)
 ggplot(mar_res2, aes(x = followers_count, y = pe, ymin = lwr, ymax = upr,
                      fill = var)) +
   #geom_line(y = pe) +
@@ -148,11 +148,11 @@ ggplot(mar_res2, aes(x = followers_count, y = pe, ymin = lwr, ymax = upr,
   ylab("Marginal effect of an image having a protest or a symbol") +
   scale_fill_manual("Explanatory Variable", values = c("gray30", "gray70")) +
   facet_wrap(~ model, scale = "free") +
-  theme(axis.text.y= element_text(size = 14),
-        axis.text.x= element_text(size = 14),
-        axis.title.y = element_text(size = 14),
-        axis.title.x = element_text(size = 14),
-        strip.text.x = element_text(size = 16),
+  theme(axis.text.y= element_text(size = 10),
+        axis.text.x= element_text(size = 10),
+        axis.title.y = element_text(size = 10),
+        axis.title.x = element_text(size = 10),
+        strip.text.x = element_text(size = 12),
         panel.background = element_rect("white"),
         panel.border = element_rect("black", fill = NA),
         strip.background = element_rect("white"))
