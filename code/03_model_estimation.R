@@ -60,7 +60,6 @@ mech_rt_model_att <- glm.nb(retweet_n ~ followers_count +
 #       new users (users who messages about A14 for the first time)
 mech_rt_model_diff <- glm.nb(retweet_new_shut_n ~ followers_count +
                                friends_count +
-                               #factor(hours_at) +
                                prev_tweets +
                                time_control +
                                protest +
@@ -69,8 +68,7 @@ mech_rt_model_diff <- glm.nb(retweet_new_shut_n ~ followers_count +
                                fear +
                                disgust +
                                sadness +
-                               enthusiasm, # +
-                             # black + white + latino + asian + native, 
+                               enthusiasm, 
                              control=glm.control(maxit=200),
                              data = or_shut_covs)
 
