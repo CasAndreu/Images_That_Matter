@@ -127,7 +127,7 @@ ggplot(scenarios_wide %>% filter(model == "att"), aes(x = score)) +
 dev.off()
 
 # - PNG: Figure 6
-png("./images_png/figure_6.png", width = 800, height = 300)
+png("./images_png/figure_6.png", width = 600, height = 250)
 ggplot(scenarios_wide %>% filter(model == "att"), aes(x = score)) +
   geom_ribbon(aes(ymin = lwr, ymax = upr), fill = "gray90") +
   geom_line(aes(y = pe)) +
@@ -138,11 +138,11 @@ ggplot(scenarios_wide %>% filter(model == "att"), aes(x = score)) +
   scale_x_continuous(breaks = seq(0, 10, length.out = 5),
                      labels = c("0", "2.5", "5", "7.5", "10")) +
   facet_wrap(~ emotion, nrow = 1, ncol = 5) +
-  theme(axis.text.y= element_text(size = 16),
-        axis.text.x= element_text(size = 16),
-        axis.title.x = element_text(size = 16),
-        axis.title.y = element_text(size = 16),
-        strip.text.x = element_text(size = 18),
+  theme(axis.text.y= element_text(size = 10),
+        axis.text.x= element_text(size = 10),
+        axis.title.x = element_text(size = 10),
+        axis.title.y = element_text(size = 10),
+        strip.text.x = element_text(size = 12),
         panel.background = element_rect("white"),
         panel.border = element_rect("black", fill = NA),
         strip.background = element_rect("white"))
@@ -193,7 +193,7 @@ ggplot(scenarios_wide %>% filter(model == "diff"), aes(x = score)) +
 dev.off()
 
 # - PNG: Figure 7
-png("./images_png/figure_7.png", width = 800, height = 300)
+png("./images_png/figure_7.png", width = 600, height = 250)
 ggplot(scenarios_wide %>% filter(model == "diff"), aes(x = score)) +
   geom_ribbon(aes(ymin = lwr, ymax = upr), fill = "gray90") +
   geom_line(aes(y = pe)) +
@@ -204,11 +204,11 @@ ggplot(scenarios_wide %>% filter(model == "diff"), aes(x = score)) +
   scale_x_continuous(breaks = seq(0, 10, length.out = 5),
                      labels = c("0", "2.5", "5", "7.5", "10")) +
   facet_wrap(~ emotion, nrow = 1, ncol = 5) +
-  theme(axis.text.y= element_text(size = 16),
-        axis.text.x= element_text(size = 16),
-        axis.title.x = element_text(size = 16),
-        axis.title.y = element_text(size = 16),
-        strip.text.x = element_text(size = 18),
+  theme(axis.text.y= element_text(size = 10),
+        axis.text.x= element_text(size = 10),
+        axis.title.x = element_text(size = 10),
+        axis.title.y = element_text(size = 10),
+        strip.text.x = element_text(size = 12),
         panel.background = element_rect("white"),
         panel.border = element_rect("black", fill = NA),
         strip.background = element_rect("white"))
