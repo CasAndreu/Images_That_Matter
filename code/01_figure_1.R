@@ -8,7 +8,7 @@
 
 # Data
 
-# Load the main dataset containing information about eac 30-minute period
+# Load the main dataset containing information about each 30-minute period
 results <- read.csv("./data/results.csv")
 
 # A) Plot showing showing the ATTENTION (# of tweets) to BLM + A14:
