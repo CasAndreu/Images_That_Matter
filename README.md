@@ -28,12 +28,6 @@ Online Appendix and Replication materials for the [paper](http://andreucasas.com
 
 - [`03_model_estimation.R`](https://github.com/CasAndreu/Images_That_Matter/blob/master/code/03_model_estimation.R): Estimating the 4 models of the paper. The fitted models are saved in the `./models/` directory.
 
-- [`04_figure_3.R`](https://github.com/CasAndreu/Images_That_Matter/blob/master/code/04_figure_3.R): Code to replicate Figure 3.
-
-<p align="center">
-  <img src="images_png/figure_3.png" style="width: 50px;"/>
-</p>
-
 - [`05_figure_4.R`](https://github.com/CasAndreu/Images_That_Matter/blob/master/code/05_figure_4.R): Code to replicate Figure 4.
 
 <p align="center">
