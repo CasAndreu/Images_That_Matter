@@ -1,11 +1,13 @@
 # Images That Matter: Online Protests and the Mobilizing Role of Pictures
-Online Appendix and Replication materials for the [paper](http://andreucasas.com/casas_webb_williams_Images_That_Matter_25April2017.pdf) by [Andreu Casas](http://andreucasas.com/) (University of Washington) and [Nora Webb Williams](https://norawebbwilliams.github.io/) (University of Washington).
+Online Appendix and Replication materials for the [paper](http://andreucasas.com/casas_webb_williams_Images_That_Matter_25April2017.pdf) by [Andreu Casas](http://andreucasas.com/) (New York University) and [Nora Webb Williams](https://norawebbwilliams.github.io/) (University of Washington).
 
 ## Files Description:
 - [Online Appendix](https://github.com/CasAndreu/Images_That_Matter/blob/master/casas_webb_williams_Images_That_Matter_OnlineAppendix_25April2017.pdf): This is a PDF containing all the Appendices of the paper:
   - A. Image Labeling Procedures and Summary Statistics Table
   - B. Interrater Reliability, Evidence of Stable Emotions Labeling, and Turker Demographics
   - C. Regression Analysis Results Table
+  - D. Robustness Check, controlling for the text of the messages
+  - E. Image Features and Emotions
   
 - [`00_functions.R`](https://github.com/CasAndreu/Images_That_Matter/blob/master/code/00_functions.R): Script with some functions we use in this project.
   
