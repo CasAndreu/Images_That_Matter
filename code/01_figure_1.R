@@ -10,13 +10,11 @@
 
 # Load the main dataset containing information about each 30-minute period
 results <- read.csv("./data/results.csv")
-results <- results %>%
-  dplyr::select(tweets, pimages, users_shut_accum)
 
 # A) Plot showing showing the ATTENTION (# of tweets) to BLM + A14:
 colorpal <- c("gray90", "gray70", "gray50", "black")
-#pdf("./images_pdf/figure_1a.pdf", width = 10, height = 6)
-png("./images_png/figure_1a.png", width = 1000, height = 600)
+pdf("./images_pdf/figure_1a.pdf", width = 10, height = 6)
+#png("./images_png/figure_1a.png", width = 1000, height = 600)
 par(mar = c(7,5,2,5))
 plot(results$tweets, type = 'l', axes = FALSE,
      ylab = "Tweets (n)", xlab = "", ylim = c(0, 3500), 
@@ -50,7 +48,7 @@ dev.off()
 # B) Plot showing the DIFFUSION (# new unique A14 users) of the April14 protest:
 par(mar = c(7,5,2,5))
 pdf("./images_pdf/figure_1b.pdf", width = 10, height = 6)
-png("./images_png/figure_1a.pdf", width = 1000, height = 600)
+#png("./images_png/figure_1b.png", width = 1000, height = 600)
 plot(results$users_shut_accum, type = 'l', axes = FALSE, 
      ylab = "Unique users (n)", xlab = "", ylim = c(0, 25000), 
      xlim = c(0, 333), cex.lab = 1.4)
